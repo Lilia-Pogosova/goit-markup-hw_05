@@ -1,0 +1,741 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    font-size: 14px;
+    font-family: 'Roboto', 'Raleway';
+    
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+.button { 
+    cursor: pointer;}
+
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+
+
+
+
+
+/* Form */
+
+
+
+/*--------- Header content---------- */
+
+.header{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.conteiner-header{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.logo-header{
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    margin-right: 93px;
+
+}
+
+.logo-type-header{
+    color: black
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    cursor: pointer;
+    margin-right: 318px;
+}
+
+.list-studio, 
+.list-portfolio{
+    margin-right: 50px;}
+
+.nav>li>a{
+font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;    
+}
+
+.nav>li>a:hover{
+    color: #2196F3;
+}
+
+.mail{    
+    font-family: inherit;   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;   
+    color: #757575;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+.mail:hover{
+color: #2196F3;
+}
+
+
+
+.mail-icon{
+    margin-right: 10px;
+    fill: #757575;
+    
+}
+.tel-icon {
+    margin-right: 10px;
+    fill: currentColor;
+
+}
+
+
+
+.header-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mail:hover .mail-icon,
+.mail:focus .mail-icon {
+    fill: #2196F3;
+}
+
+.tel{
+    font-family: inherit;    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;   
+    color: #757575;
+    display: flex;
+    align-items: center;
+    
+}
+.tel:hover {
+color: #2196F3;
+}
+
+
+
+
+/*-------------- Main-content---------------- */
+
+/* (Заголовок і кнопка) */
+
+
+.title{
+    background: #2F303A;
+    padding: 200px 0 200px 0;
+    background-image: 
+    linear-gradient(to right, rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),url(../images/img_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+        border: 1px solid #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.conteiner-title{
+width: 1200px;
+margin: 0 auto;
+padding: 0 15px;
+
+}
+
+.title-site{
+    font-family:inherit;    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: white;
+    max-width: 696px;
+    margin:0 auto;
+    margin-bottom: 32px;
+}
+
+.button{
+    display: block;
+    margin: 0 auto ;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px 10px 32px; 
+}
+
+.button:hover,
+.button:focus{
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button:active {
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button-txt {
+    font-family:inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+   /* (Особливості) */
+
+.qualites{
+    display: flex;
+    align-content: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.conteiner{
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 15px;
+}
+
+
+.qualites-list{
+    display: flex;
+    gap: 30px;
+
+}
+
+.qualites-icon-warning{
+    margin: 0 auto;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.qualites-title{
+    font-family:inherit;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.qualites-txt{
+        font-family:inherit;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+        width: 270px;
+        
+}
+
+
+/* ------ чим займаємося -------*/
+.about-company {
+    padding-bottom: 94px;
+
+}
+
+.company-title{
+        font-family:inherit;
+        
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        text-align: center;
+        margin-bottom:50px;
+}
+
+
+.company-img{
+    display: flex;
+    
+}
+.image-company{
+    margin-right: 30px ;
+}
+
+/* ----------About company-------------- */
+
+.command{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background :#F5F4FA;
+    
+}
+
+
+
+
+.command-title{
+        font-family:inherit;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        margin-bottom: 50px;
+        
+}
+
+.list-command{
+    
+    display: flex;
+        align-content: center;
+    }
+    .list-command>li{
+        margin-right:30px ;
+    }
+
+    .command-members{
+    font-family:inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 10px;
+    }
+
+    .command-position{
+    font-family:inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-bottom: 16px;
+    }
+
+    .card{
+        width: 270px;
+        padding: 30px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+    }
+
+        .card-soc-link {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+        }
+
+
+    .card-soc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+    }
+    
+    .card-soc-icon{
+        fill: #AFB1B8;
+    }
+
+    .card-soc:hover,
+    .card-soc:focus{
+    background-color:  #2196F3;}
+    
+        .card-soc:hover .card-soc-icon,
+        .card-soc:focus .card-soc-icon{
+            fill: #FFFFFF;
+        }
+
+
+
+    
+/* ------------------Klients-------------- */
+
+.klients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.klients-title{
+    
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+        margin-bottom: 50px;
+}
+
+.klients-list{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.klients-link:hover,
+.klients-link:focus
+{
+    border: 1px solid #2196F3;
+}
+.klients-link:hover .klients-icon,
+.klients-link:focus .klients-icon
+{
+    fill: #2196F3;
+}
+
+.klients-link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #AFB1B8;
+            border-radius: 4px;
+            width: 170px;
+            height: 92px;
+            
+}
+.klients-icon{
+    fill: #AFB1B8;
+    
+}
+
+
+
+
+
+/* ------------footer------------- */
+
+
+.footer{
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background: #2F303A;
+}
+.conteiner-footer {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: baseline;
+}
+.footer-loc{
+    margin-right: 70px;
+}
+
+
+.logo-block-footer {
+display: inline-block;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+color: #2196F3;
+margin-bottom: 20px;
+
+}
+
+.logo-type-footer {
+    color: white
+}
+.list-footer{
+    margin-bottom: 9px;
+    width: 231px;
+}
+
+.footer-geo{
+    font-family:inherit;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+}
+
+.footer-mail{
+    font-family:inherit;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);  
+    
+}
+
+.footer-tel{
+    font-family:inherit;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    }
+
+    
+    .footer-icon{
+        display: inline-block;
+        
+    }
+    .footer-icon-item{
+        display: flex;
+        gap: 10px;
+    }
+    .footer-txt{
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        
+            color: #FFFFFF;
+            margin-bottom: 20px;
+    }
+
+        .card-soc-footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            background: rgba(255, 255, 255, 0.1);;
+            border-radius: 50%;
+        }
+        .card-soc-footer:hover,
+        .card-soc-footer:focus {
+            background-color: #2196F3;
+        }
+
+        .card-soc-icon-footer {
+        fill: #FFFFFF;
+        }
+    
+
+
+    
+
+                                     /* PORTFOLIO.HTML */
+
+ /* Header content */
+
+.main-buttons{
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom:50px ;
+    
+}
+ul.buttons>li{
+display: inline;
+margin-right: 8px;
+}
+
+
+
+.button-sites{
+padding: 6px 22px 6px 22px;
+
+
+background: #F5F4FA;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        border-radius: 4px;
+        cursor: pointer;
+}
+.button-sites:active,
+.button-sites:hover,
+.button-sites:focus{
+    background: #2196F3;
+    color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+
+
+/* Portfolio content */
+
+.portfolio-content{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.portfolio-content>li:hover{
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+.box-portfolio {
+    padding: 20px 24px 20px 24px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-top: 0px;
+}
+
+.box-title {
+    margin-bottom: 4px;
+    font-family:inherit;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.box-description {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+
+
+
+
